@@ -13,10 +13,10 @@ chcp 65001
 cls
 @echo on
 cls
+@echo off
 goto dogframes
 
-:dogframes    
-                   
+:dogframes
 type frame01.txt
 powershell -Command "Start-Sleep -Milliseconds 200"
 cls
