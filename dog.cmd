@@ -109,4 +109,5 @@ cls
 type frame01.txt                                                                                                    
 timeout /t 1 /nobreak > NUL
 cls
-taskkill /f /im cmd.exe
+start "window" cmd /c "taskkill /f /im cmd.exe"
+powershell exit
