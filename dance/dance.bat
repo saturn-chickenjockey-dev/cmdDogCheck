@@ -1,4 +1,4 @@
-@echo on
+@echo off
 cls
 echo WARNING: This script attempts to close every single cmd window after its completion, if you have any work on neovim, a console based IDE, etc.. save your work and prepare for the dog
 echo.
