@@ -4,13 +4,14 @@ echo WARNING: This script attempts to close every single cmd window after its co
 echo.
 pause
 cls
+@echo on
 cd %USERPROFILE%\Documents\cmdDogCheck_dancetype
 
 start /min "Amazing Instance of CMD with a purpose." cmd /k "@echo off && echo I am the sound system. Close me after the animation, or else there will be no sound for the animation. && powershell -c (New-Object Media.SoundPlayer "%USERPROFILE%\Documents\cmdDogCheck_dancetype\mus_dance_of_dog.wav").PlaySync(); %% exit"
 
 chcp 65001
 cls
-@echo off
+@echo on
 cls
 goto dogframes
 
