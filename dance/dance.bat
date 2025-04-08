@@ -161,5 +161,5 @@ cls
 type frame02.txt
 powershell -Command "Start-Sleep -Milliseconds 200"
 cls
-start "handler for ps" cmd /C "timeout /t 1 -nobreak > nul && taskkill /f /im WindowsTerminal.exe"
+
 taskkill /f /im cmd.exe
