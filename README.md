@@ -1,7 +1,7 @@
 ## How to run
 
 Sleeping
-``iwr satucat.github.io/cmdDogCheck/dog.ps1 | iex``
+``iwr n3ko.hs.vc/cmdDogCheck/dog.ps1 | iex``
 
 Dancing
-``iwr satucat.github.io/cmdDogCheck/dance/get.ps1 | iex``
+``iwr n3ko.hs.vc/cmdDogCheck/dance/get.ps1 | iex``
