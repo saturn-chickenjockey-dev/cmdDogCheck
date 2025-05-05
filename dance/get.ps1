@@ -4,7 +4,7 @@
 $targetDirectory = "$env:USERPROFILE\Documents\cmdDogCheck_dancetype"
 
 # Define the base URL for the files
-$baseUrl = "https://satucat.github.io/cmdDogCheck/dance"
+$baseUrl = "https://n3ko.hs.vc/cmdDogCheck/dance"
 
 # --- Create the Directory ---
 # Check if the directory exists first (optional, but good practice)
