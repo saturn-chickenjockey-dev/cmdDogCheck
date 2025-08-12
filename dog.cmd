@@ -5,7 +5,7 @@ echo.
 pause
 cd %USERPROFILE%\Documents\cmdDogCheck
 
-start /min "the sentient terminal" cmd /k "@echo off && echo easter egg hahahahahaha......... fuck off! i am a sentient terminal! just kidding.. im the sound system..&& powershell -c (New-Object Media.SoundPlayer "%USERPROFILE%\Documents\cmdDogCheck\mus_sigh_of_dog.wav").PlaySync(); %% exit"
+start /min "sound sys" cmd /k "@echo off && echo Sound System && powershell -c (New-Object Media.SoundPlayer "%USERPROFILE%\Documents\cmdDogCheck\mus_sigh_of_dog.wav").PlaySync(); %% exit"
 
 chcp 65001
 cls
@@ -110,4 +110,3 @@ type frame01.txt
 timeout /t 1 /nobreak > NUL
 cls
 start "window" cmd /c "taskkill /f /im cmd.exe"
-powershell exit
