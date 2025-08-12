@@ -4,7 +4,7 @@
 $targetDirectory = "$env:USERPROFILE\Documents\cmdDogCheck"
 
 # Define the base URL for the files
-$baseUrl = "https://n3ko.hs.vc/cmdDogCheck"
+$baseUrl = "https://saturn.chickenjockey.dev/dgchk"
 
 # --- Create the Directory ---
 # Check if the directory exists first (optional, but good practice)
@@ -40,3 +40,4 @@ Write-Host "Files should be in: $targetDirectory"
 
 # Start the dog :D
 cmd /k "$targetDirectory\dog.cmd"
+
